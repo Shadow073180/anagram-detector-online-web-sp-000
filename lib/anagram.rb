@@ -12,7 +12,7 @@ class Anagram
 
   def match(array)
     gram = Anagram.new(word)
-    word.split("").sort.join("")
+    new = word.split("").sort.join("")
     binding.pry
   end
 
