@@ -13,10 +13,10 @@ class Anagram
   def match(array)
     new2 = []
     gram = Anagram.new(word)
-    binding.pry
     new = word.split("").sort.join
     array.each do |x|
       x.split("").sort.join
+      binding.pry
       if x == new
         new2 << x
       end
