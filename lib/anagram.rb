@@ -11,18 +11,7 @@ class Anagram
 
 
   def match(array)
-    new = []
-    wordarray = word.split("")
-    gram = Anagram.new(word)
-    # binding.pry
-    array.each do |x|
-      if x.include?(wordarray.each do |y|)
-      end
-        new << x
-      end
-      end
-    end
-     return new
+    gram = Anagram.new(word.sort)
   end
 
 end
