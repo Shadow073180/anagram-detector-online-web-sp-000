@@ -16,9 +16,9 @@ class Anagram
     new = word.split("").sort.join
     array.each do |x|
       x.split("").sort.join
-      binding.pry
       if x == new
         new2 << x
+        binding.pry
       end
     end
     return new2
