@@ -11,7 +11,8 @@ class Anagram
 
 
   def match(array)
-    gram = Anagram.new(word.sort)
+    gram = Anagram.new(word)
+    word.sort
     binding.pry
   end
 
