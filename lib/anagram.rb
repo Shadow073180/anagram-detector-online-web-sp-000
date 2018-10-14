@@ -18,7 +18,7 @@ class Anagram
     anag =  x.split("").sort.join
       if anag == new
         new2 << x
-        binding.pry
+        # binding.pry
       end
     end
     return new2
